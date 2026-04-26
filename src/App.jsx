@@ -145,9 +145,24 @@ export default function App() {
           </div>
         </div>
 
-        <footer className="mt-10 text-center text-xs text-slate-400">
-          Built with React + Tailwind. All calculations update reactively;
-          values are formatted to 2 decimal places.
+        <footer className="mt-10 flex flex-col items-center gap-1 text-center text-xs text-slate-400">
+          <span>
+            Built with React + Tailwind. All calculations update reactively;
+            values are formatted to 2 decimal places.
+          </span>
+          <span>
+            Built with{" "}
+            <a
+              href="https://b-code.tech/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-brand-600 hover:text-brand-700 hover:underline"
+            >
+              &copy; 2026 B-Code
+            </a>{" "}
+            <span className="text-slate-300">|</span>{" "}
+            <span className="font-medium text-slate-500">Omar Elbayoumi</span>
+          </span>
         </footer>
       </main>
     </div>
